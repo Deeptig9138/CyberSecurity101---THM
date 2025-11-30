@@ -1,3 +1,4 @@
+![THM Room](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/THM.png)
 # 🛡️ Cyber Security 101 – TryHackMe Learning Path  
 A complete technical documentation of my Cyber Security learning journey.  
 This repository includes structured notes, commands, walkthroughs, and explanations for every module and room in the **TryHackMe Cyber Security 101 Path**.
@@ -54,8 +55,8 @@ CyberSecurity101-THM/
 ├── 10-Defensive-Security/
 ├── 11-Security-Solutions/
 ├── 12-Defensive-Security-Tooling/
-├── 13-Cyber-Career/
-└── 14-OWASP-Top-10-2025/
+├── 14-OWASP-Top-10-2025/
+└── screenshots/
 ```
 
 ---

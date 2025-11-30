@@ -218,11 +218,7 @@ Updates will be pushed section by section.
 
 ---
 
-# 🤝 Contributions  
+# 🤝 Contributions & License  
 This repository is primarily for personal learning,  
-but suggestions and improvements are welcome.
-
----
-
-# ⭐ License  
+but suggestions and improvements are welcome. 
 MIT License.

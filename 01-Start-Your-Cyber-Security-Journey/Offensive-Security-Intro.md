@@ -74,6 +74,8 @@ gobuster -u http://fakebank.thm -w wordlist.txt dir
 | -w wordlist.txt	    | Wordlist to test possible paths |
 | dir	                | Directory enumeration mode      |
 
+![Gobuster](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/m1.png)
+
 **Expected Output:**
 ```
 /images (Status: 301)
@@ -97,12 +99,18 @@ http://fakebank.thm/bank-transfer
 
 You'll find a vulnerable transfer form.
 
+![Form](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/m1.1.png)
+
 - **Mission:** Transfer $2000 from account 2276 → 8881
 - Refresh your account page to confirm the change.
+
+![Mission](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/m1.2.png)
 
 **Question:** What message appears above your account balance?
 
 **Answer:** BANK-HACKED
+
+![Flag](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/m1.3.png)
 
 ---
 

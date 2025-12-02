@@ -259,3 +259,5 @@ Follow the steps in the TryHackMe interactive simulation:
 - SIEM tools centralize logs and alerts for quick analysis  
 
 This room establishes foundational defensive security concepts that you'll build upon in SOC, SIEM, DFIR, and malware labs ahead.
+
+![Cert](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/Defensive-Sec.png)

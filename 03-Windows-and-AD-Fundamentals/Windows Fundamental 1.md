@@ -32,10 +32,6 @@ By completing this room, you will be able to:
 
 ---
 
-## 🧭 Task Walkthrough
-
----
-
 ### 🪟 Task 1: Windows Editions
 
 Windows has evolved significantly since its introduction in **1985**. Over time, Microsoft released multiple versions, learning from both successes and failures:
@@ -73,15 +69,11 @@ The **Windows Desktop (GUI)** is the main interface users interact with after lo
 6. Toolbars  
 7. Notification Area  
 
----
-
 #### 🧩 The Desktop
 - Contains shortcuts, files, and folders
 - Customizable via **right-click → context menu**
 - Display settings allow resolution & multi-monitor configuration
 - Personalization allows wallpaper, theme, and color changes
-
----
 
 #### 🚀 The Start Menu
 
@@ -96,14 +88,10 @@ The Start Menu provides quick access to:
 2. Installed applications (alphabetical)
 3. Tiles (pinned apps)
 
----
-
 #### 📌 The Taskbar
 - Displays running and pinned applications
 - Hovering shows preview thumbnails
 - Customizable via right-click menu
-
----
 
 #### 🔔 Notification Area
 - Displays date & time
@@ -148,8 +136,6 @@ Modern Windows systems use **NTFS (New Technology File System)**.
 - Encryption (EFS)
 - Journaling (automatic recovery)
 
----
-
 #### 🔐 NTFS Permissions
 - Full Control
 - Modify
@@ -158,11 +144,7 @@ Modern Windows systems use **NTFS (New Technology File System)**.
 - Read
 - Write
 
-Permissions can be viewed via:
-Right-click → Properties → Security
-
-
----
+Permissions can be viewed via: `Right-click → Properties → Security`
 
 #### 🕵️ Alternate Data Streams (ADS)
 
@@ -200,8 +182,6 @@ Administrators can:
 - Add/remove users
 - Change system settings
 
----
-
 #### User Profiles
 - Stored in `C:\Users\`
 - Created on first login
@@ -212,12 +192,11 @@ Administrators can:
   - Pictures
   - Music
 
----
-
 #### Local User & Group Management
 Access via:
 Run → lusrmgr.msc
 
+![lusrmgr](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.1.png)
 
 - Users inherit permissions from groups
 - Users can belong to multiple groups
@@ -225,8 +204,13 @@ Run → lusrmgr.msc
 📌 **Answers**
 - Other user → **tryhackmebilly**
 - Groups → **Remote Desktop Users, Users**
+
+![groups](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.2.png)
+
 - Guest account → **Guest**
 - Account description → **window$Fun1!**
+
+![description](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.3.png)
 
 ---
 
@@ -251,7 +235,7 @@ Run → lusrmgr.msc
 Some actions start in Settings and redirect to Control Panel.
 
 📌 **Answer**
-- Last setting in Control Panel (Small icons view) → *Hands-on task*
+- Last setting in Control Panel (Small icons view) → *Windows Defender Firewall*
 
 ---
 
@@ -291,8 +275,4 @@ Future modules will cover:
 - User permissions and UAC are critical security layers
 - System tools like Task Manager and Control Panel are essential for monitoring and control
 
----
-
-✅ *Room Completed*  
-📚 *Next step: Windows Fundamentals 2 & Windows Internals*
-
+![windows1](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/Windows1.png)

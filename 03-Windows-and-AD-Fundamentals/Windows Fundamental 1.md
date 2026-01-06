@@ -193,8 +193,7 @@ Administrators can:
   - Music
 
 #### Local User & Group Management
-Access via:
-Run → lusrmgr.msc
+Access via: `Run → lusrmgr.msc`
 
 ![lusrmgr](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.1.png)
 

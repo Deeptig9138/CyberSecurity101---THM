@@ -1,6 +1,5 @@
 # 🪟 Windows Fundamentals 2
 
-## 📘 Room Overview
 This room continues the Windows Fundamentals journey by exploring **advanced system utilities**, **administrative tools**, and **power-user components** of the Windows operating system. It focuses on tools commonly used by system administrators, SOC analysts, and blue-teamers for troubleshooting, monitoring, and system analysis.
 
 ---
@@ -24,13 +23,6 @@ By completing this room, you will be able to:
 - System monitoring and diagnostics
 - Command-line based system inspection
 - Registry structure and risks
-
----
-
-## 🧭 Task 1: Introduction
-This room builds on **Windows Fundamentals 1**, extending into deeper administrative utilities like MSConfig, Computer Management, System Information, and more.
-
-📌 The attached **Windows Server VM** is used for hands-on exploration.
 
 ---
 
@@ -61,9 +53,12 @@ Used to configure:
 ### ✅ Answers
 - **Service with Systems Internals as manufacturer:** `PsShutdown`
 - **Windows license registered to:** `Windows User`
-- **Windows Troubleshooting command:**  
-  `C:\Windows\System32\control.exe /name Microsoft.Troubleshooting`
+- **Windows Troubleshooting command:** `C:\Windows\System32\control.exe /name Microsoft.Troubleshooting`
 - **Control Panel executable:** `control.exe`
+
+![troubleshooting](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.4.png)
+
+![control](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.5.png)
 
 ---
 
@@ -109,6 +104,10 @@ Accessible via `compmgmt.msc`, this utility includes:
 - **npcapwatchdog scheduled task runs:** `At system startup`
 - **Hidden shared folder name:** `sh4r3dF0Ld3r`
 
+![computer](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.6.png)
+
+![folder](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.7.png)
+
 ---
 
 ## 🧭 Task 5: System Information
@@ -124,6 +123,10 @@ The **System Information** tool (`msinfo32`) provides a detailed overview of:
 - **Command:** `msinfo32.exe`
 - **System Name:** `THM-WINFUN2`
 - **ComSpec value:** `%SystemRoot%\system32\cmd.exe`
+
+![system](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.8.png)
+
+![value](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/m3.9.png)
 
 ---
 
@@ -157,8 +160,7 @@ Help manuals:
 - `net help <subcommand>`
 
 ### ✅ Answers
-- **Full command for IP configuration:**  
-  `C:\Windows\System32\cmd.exe /k %windir%\system32\ipconfig.exe`
+- **Full command for IP configuration:** `C:\Windows\System32\cmd.exe /k %windir%\system32\ipconfig.exe`
 - **Detailed IP info command:** `ipconfig /all`
 
 ---
@@ -200,17 +202,4 @@ No need to rely only on MSConfig 😄
 - Knowing commands = speed + confidence
 - These tools are critical for real-world troubleshooting and security analysis
 
----
-
-## 🚀 What’s Next?
-Upcoming rooms will dive deeper into:
-- Windows Internals
-- Event Logs
-- Security tools
-- PowerShell
-- Defensive monitoring
-
----
-
-📌 *Hands-on Windows knowledge > mugging theory.*  
-This room adds serious weight to any **blue team / SOC / sysadmin** learning path.
+![windows2](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/windows2.png)

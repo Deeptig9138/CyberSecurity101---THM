@@ -385,3 +385,5 @@ To go deeper:
 ---
 *📌 Active Directory knowledge is essential for both blue team and red team professionals.
 Mastering AD fundamentals is the gateway to enterprise security expertise.*
+
+![ad](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/M3/AD.png)

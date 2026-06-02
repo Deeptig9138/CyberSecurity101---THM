@@ -209,7 +209,7 @@ This keeps the repo **technical, structured, and easy to revise**.
 
 # 📜 Certificate  
 
-![]()
+![](https://github.com/Deeptig9138/CyberSecurity101---THM/blob/main/screenshots/cert.png)
 
 ---
 

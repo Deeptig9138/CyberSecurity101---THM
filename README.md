@@ -208,7 +208,8 @@ This keeps the repo **technical, structured, and easy to revise**.
 ---
 
 # 📜 Certificate  
-A TryHackMe **Certificate of Completion** will be added upon finishing the full path.
+
+![]()
 
 ---
 
